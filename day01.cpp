@@ -21,27 +21,27 @@ unsigned int findSquare(int n) {
 }
 
 int main() {
-    // string s1, s2;
-    // cout << "Enter the first string: ";
-    // getline(cin, s1);
-    // cout << "Enter the second string: ";
-    // getline(cin, s2);
-    // concatenateString(s1, s2);
+    string s1, s2;
+    cout << "Enter the first string: ";
+    getline(cin, s1);
+    cout << "Enter the second string: ";
+    getline(cin, s2);
+    concatenateString(s1, s2);
 
-    // int g1, g2, g3, g4, g5;
+    int g1, g2, g3, g4, g5;
 
-    // cout << "Enter Grade 1: ";
-    // cin >> g1;
-    // cout << "Enter Grade 2: ";
-    // cin >> g2;
-    // cout << "Enter Grade 3: ";
-    // cin >> g3;
-    // cout << "Enter Grade 4: ";
-    // cin >> g4;
-    // cout << "Enter Grade 5: ";
-    // cin >> g5;
-    // double average = findAverageGrade(g1, g2, g3, g4, g5);
-    // cout << "The average grade is: " << fixed << setprecision(4) << average << endl;
+    cout << "Enter Grade 1: ";
+    cin >> g1;
+    cout << "Enter Grade 2: ";
+    cin >> g2;
+    cout << "Enter Grade 3: ";
+    cin >> g3;
+    cout << "Enter Grade 4: ";
+    cin >> g4;
+    cout << "Enter Grade 5: ";
+    cin >> g5;
+    double average = findAverageGrade(g1, g2, g3, g4, g5);
+    cout << "The average grade is: " << fixed << setprecision(4) << average << endl;
     
     int n;
     cout << "Enter a number: ";
