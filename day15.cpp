@@ -14,14 +14,14 @@ class Student {
         cout << "Roll: " << this->roll << endl;
         cout << "Age: " << this->age << endl;
     }
-}
+};
 
 // Ques 2: Write a C++ code  that take linked list from user input and a value integer . Delete the value from the linkedlist.   
 class Node {
     public:
     int val;
     Node* next;
-}
+};
 void deleteNode(Node* &head, int value) {
     if (head == nullptr) return;
 
