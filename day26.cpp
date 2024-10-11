@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 
-// Ques 1. Implement the priority queue using array. 
+// Ques 1. Implement the priority queue using array.
+
 class PriorityQueue {
 private:
     

@@ -36,7 +36,6 @@ public:
         newNode->next = top;
         top = newNode;
     }
-
     void pop() {
         if (top == nullptr) {
             cout << "Stack Underflow" << endl;
@@ -46,7 +45,6 @@ public:
         top = top->next;
         delete temp;
     }
-
     int peek() {
         if (top == nullptr) {
             cout << "Stack is empty" << endl;
@@ -54,7 +52,6 @@ public:
         }
         return top->data;
     }
-
     bool isEmpty() {
         return top == nullptr;
     }
